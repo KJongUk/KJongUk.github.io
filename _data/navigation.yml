@@ -2,11 +2,21 @@
 main:
   - title: "About"
     url: /about/
-  - title: "Algorithm"
-    url: /categories/algorithm/
+  - title: "Contents"
+    url: /categories/
+    children:
+      - title: "Algorithm"
+        url: /categories/algorithm/
+      - title: "AI"
+        url: /categories/AI/
   # - title: "Sample Posts"
   #   url: /year-archive/
   # - title: "Sample Collections"
   #   url: /collection-archive/
   # - title: "Sitemap"
   #   url: /sitemap/
+
+#
+sidebar-algorithm:
+
+
